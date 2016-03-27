@@ -1,0 +1,30 @@
+{
+  "name": "arrchunksort",
+  "version": "0.0.1",
+  "description": "Sort chunk array",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test/*.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominhhai/arrchunksort.git"
+  },
+  "keywords": [
+    "array",
+    "sort",
+    "chunk",
+    "sort"
+  ],
+  "author": "dominhhai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominhhai/arrchunksort/issues"
+  },
+  "homepage": "https://github.com/dominhhai/arrchunksort#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "standard": "^6.0.8",
+    "tape": "^4.5.1"
+  }
+}
