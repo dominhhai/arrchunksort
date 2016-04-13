@@ -4,14 +4,14 @@ function sort (arr, size, fn) {
     return new Error('compare is not a function')
   }
   var chunks = split(arr, size)
-  var sortedChunks = chunks.sort(compare)
+  chunks.sort(fn)
 
-  return concat(sortedChunks)
+  return concat(chunks)
 }
 
 function split (arr, size) {
-  size = size || 2
-  if (size < 2) size = 2
+  size = size || 1
+  if (size < 1) size = 1
   else if (size > arr.length) size = arr.length
 
   var chunks = []
